@@ -1,0 +1,3 @@
+.testr.conf
+.pytest_cache/
+.coveragerc
