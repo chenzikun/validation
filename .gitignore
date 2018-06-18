@@ -1,3 +1,5 @@
 .testr.conf
-.pytest_cache/
+.pytest_cache
 .coveragerc
+.idea
+.DS_Store
