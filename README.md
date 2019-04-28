@@ -29,9 +29,9 @@ def hello():
 ```python
 data = {
         "apikey": "di2kd92lsdf92.o23o3sf233lkjsf.sdfkjo2i3lkjsldkfj234df",
-        # "source": "NGAF",
-        "deviceId": "ABCDEFG",
-        "deviceVersion": "AF8.0.5 build 0630 R1",
+        # "source": "xxx",
+        "deviceId": "xxx",
+        "deviceVersion": "xxx",
         "sdkVersion": "1.0.0",
         "requestId": "abcdef",
 }
@@ -48,17 +48,7 @@ assert res["message"] == ""
 ```python
 # register_funcs.py
 ServerType = {
-    "auth": register_auth_validators,
-    "domain": register_domain_validators,
-    "url": register_url_validators,
-    "ips": register_ip_validators,
-    "file_hash": register_file_hash_validator,
-    "file_scan": register_file_scan_validator,
-    "safe_events": register_safe_events_validators,
-    "threats_intelligence": register_threats_intelligence_validators,
-    "collect_files": register_collect_files_validators,
-    "collect_logs": register_collect_logs_validators,
-    "file_issued": register_file_issued_validators
+    ...
 }
 ```
 
